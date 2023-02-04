@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>error page</title>
+    <link rel="icon" href="error1.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="errorstyle.css">
+
+</head>
+
+<body>
+
+
+
+    <body>
+        <div class="title">
+            <p class="pp">
+                from
+
+            </p>
+            <h1>
+                (in.000.webhost.com)
+            </h1>
+        </div>
+        <div class="mainbox">
+            <div class="head">
+                error
+            </div>
+            <div class="err">
+                I00004 <br>
+                No records found !
+            </div>
+
+            <div class="img" id="img">
+                <img src="error1.png" alt="sorry img not availabe">
+            </div>
+            <div class="msg">
+                <p class="content">
+                    Your trial is period is ended <br>
+                    <br>
+                    If you want to continue to use our services
+                </p>
+
+            </div>
+            <div><button class="btn" onclick="upimg()">Pay Now </button></div>
+        </div>
+
+
+    </body>
+    <script>
+        function upimg() {
+
+            document.getElementById('img').style = "top : -300px ; transition-duration: 1.5s; opacity: 0"
+
+            setTimeout(function upimg() {
+                window.open("https://paytm.business/link/1627581306798/LL_382980500"), "_self";
+
+            }, 1600);
+        }
+    </script>
+
+
+
+</html>

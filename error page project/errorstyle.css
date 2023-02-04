@@ -1,0 +1,132 @@
+body {
+  background-color: #95c2de;
+}
+.title {
+  background-color: #000000a8;
+  margin: auto;
+  height: 80px;
+  width: 600px;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+}
+.pp {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 46%;
+  top: -20%;
+}
+h1 {
+  color: white;
+  position: absolute;
+  top: 4%;
+  left: 20%;
+  font-size: 2.5rem;
+}
+h1:hover {
+  color: #95c2de;
+}
+.head {
+  color: #000000;
+  font-family: monospace, sans-serif;
+  text-transform: lowercase;
+  font-size: 4rem;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+}
+
+.mainbox {
+  background-color: #000000a8;
+  margin: auto;
+  height: 560px;
+  width: 600px;
+  position: relative;
+  top: 10px;
+  border-radius: 10px;
+}
+
+.err {
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 2rem;
+  position: absolute;
+  left: 23%;
+  top: 44%;
+  text-align: center;
+}
+
+.img {
+  position: absolute;
+  top: 2%;
+  left: 33%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 1.5s;
+  animation-name: animatetop;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: -1;
+  }
+  to {
+    top: 5;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: -1;
+  }
+  to {
+    top: 5;
+    opacity: 1;
+  }
+}
+
+.msg {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 11%;
+  top: 60%;
+  width: 80%;
+}
+.content {
+  color: black;
+  text-transform: uppercase;
+}
+
+.mainbox:hover > .far {
+  transition-duration: 700ms;
+}
+.mainbox:hover > .msg > .content {
+  color: #95c2de;
+  transition-duration: 800ms;
+}
+.btn {
+  font-weight: 800;
+  position: absolute;
+  left: 42%;
+  top: 89%;
+  color: #000000;
+  background-color: #95c2de;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.575) 7px 7px 7px;
+}
+.btn:hover {
+  background-color: #ffffffab;
+  font-weight: 900;
+  color: #000000;
+  transition-duration: 400ms;
+}
